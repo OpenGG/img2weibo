@@ -1,0 +1,28 @@
+{
+  "name": "img2weibo",
+  "version": "1.0.2",
+  "description": "Get Weibo user id from image url.",
+  "main": "main.js",
+  "bin": "bin.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenGG/img2weibo.git"
+  },
+  "keywords": [
+    "weibo",
+    "image",
+    "parse"
+  ],
+  "author": "OpenGG <liy099@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OpenGG/img2weibo/issues"
+  },
+  "homepage": "https://github.com/OpenGG/img2weibo#readme"
+}

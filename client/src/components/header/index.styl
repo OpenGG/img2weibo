@@ -1,0 +1,43 @@
+@import '../../base.styl'
+
+.header
+  text-align center
+
+.header-logo
+  margin auto
+  display block
+  animation header-logo-spin infinite 20s linear
+  height 300px
+  max-height 40vmin
+  pointer-events none
+
+@keyframes header-logo-spin
+  from
+    transform rotate(0deg)
+  to
+    transform rotate(360deg)
+
+.header-title
+  display inline-block
+  margin 20px
+  position relative
+  background $colorMain
+  padding 6px 24px
+  font-weight 100
+  font-size 16px
+  color #fff
+  border-radius 6px
+
+  &:before
+    content ''
+    width 0
+    height 0
+    border 15px solid $colorMain
+    border-left-color transparent
+    border-right-color transparent
+    border-top-color transparent
+    position absolute
+    bottom 100%
+    left 50%
+    margin-left -15px
+
