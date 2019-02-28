@@ -11,12 +11,11 @@ import './index.styl';
 const defaultImg = 'https://wx3.sinaimg.cn/large/632dab64ly1g0m3f02heoj20dc08wq6j.jpg'
 
 const Form = () => {
-  const [img, setImg] = useState(defaultImg);
+  const [img, setImg] = useState('');
 
-  const [imgVal] = useDebounce(img, 100);
+  const [imgVal] = useDebounce(img, 100) || defaultImg;
 
   const id = img2weibo(imgVal);
-  console.log(id);
 
   const onInput = (e) => {
     setImg(e.target.value);
