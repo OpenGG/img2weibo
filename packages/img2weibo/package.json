@@ -1,6 +1,6 @@
 {
   "name": "img2weibo",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Get Weibo user id from image url.",
   "main": "main.js",
   "bin": "bin.js",
