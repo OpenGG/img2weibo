@@ -9,7 +9,7 @@ const img2weibo = (url) => {
     return 0;
   }
 
-  const accountEncoded = matches[1];
+  const accountEncoded = matches[1].slice(0, 8);
 
   const radix = /^00/.test(accountEncoded) ? 62 : 16;
 
